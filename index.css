@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body {
+    background-color: rgb(249, 161, 211);
+    /* background-image: url('/test_back.png'); */
+    background-image: url('/back.png');
+    background-size: cover;
+    width: 380px;
+    height: 844px;
+    animation: opac 0.3s ease-in-out forwards;
+    animation-delay: 3s;
+}
+@keyframes opac {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
