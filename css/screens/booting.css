@@ -2,7 +2,7 @@
     position: absolute;
     width: 380px;
     height: 844px;
-    background-image: url('/img/booting.jpg');
+    background-image: url('../../img/booting.jpg');
     background-size: cover;
 
     animation: opac 0.3s ease-in-out forwards;
