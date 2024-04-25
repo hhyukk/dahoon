@@ -1,6 +1,7 @@
 @import 'reset.css';
 @import 'screens/booting.css';
 @import 'screens/login.css';
+@import 'screens/sign.css';
 @import 'variables.css';
 
 * {

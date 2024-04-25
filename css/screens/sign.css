@@ -1,0 +1,62 @@
+.sign_title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 65px;
+}
+.sign_title span:first-child {
+    font-family: 'Pretendard';
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.sign_title span:last-child {
+    font-family: 'Pretendard';
+    font-weight: var(--Light);
+    font-size: 10px;
+    color: #404040;
+}
+.login_information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 52px;
+}
+.login_information span {
+    font-family: 'Pretendard';
+    font-size: 10px;
+    font-weight: var(--Medium);
+}
+.login_information input {
+    width: 278px;
+    height: 40px;
+    background-color: #d8d8d8;
+    border: none;
+    border-radius: 12px;
+    padding-left: 10px;
+}
+.login_information input::placeholder {
+    color: white;
+}
+.ID_information {
+    margin-bottom: 15px;
+}
+.ID_information span {
+    margin-right: 62px;
+}
+.Password_information {
+    margin-bottom: 15px;
+}
+.Password_information span {
+    margin-right: 37px;
+}
+.Password_check_information span {
+    margin-right: 17px;
+}
+.signup_complete {
+    background-color: #a8a8a8;
+    color: white;
+    font-weight: var(--Bold);
+    font-size: 14px;
+    margin-top: 449px;
+}

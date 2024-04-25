@@ -1,3 +1,6 @@
 :root {
     --pink: rgb(249, 161, 211);
+    --Light: 300;
+    --Medium: 500;
+    --Bold: 700;
 }
