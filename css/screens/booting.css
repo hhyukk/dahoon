@@ -1,0 +1,23 @@
+.booting {
+    position: absolute;
+    width: 380px;
+    height: 844px;
+    background-image: url('/img/booting.jpg');
+    background-size: cover;
+
+    animation: opac 0.3s ease-in-out forwards;
+    animation-delay: 3s;
+}
+.login_page {
+    width: 100%;
+    height: 100%;
+}
+@keyframes opac {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
